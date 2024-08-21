@@ -220,8 +220,8 @@
 
     <!-- Article Section Start -->
     <div class="w-10/12 mx-auto text-center space-y-5 pb-24">
-        <button class="btn bg-white rounded-3xl px-5 font-bold ">
-            <i class="fa-solid fa-arrow-right px-2  bg-white text-black "></i>
+        <button class="btn bg-secondary rounded-3xl px-5 font-bold ">
+            <i class="fa-solid fa-arrow-right px-2   text-black "></i>
             Rinterio News
         </button>
         <h3 class="text-txtprimary text-4xl font-extrabold">Read Our Articles and News</h3>
@@ -233,32 +233,33 @@
         <!-- cards -->
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-10 lg:gap-5 ">
 
-            <div class="card w-96 pt-10 bg-white rounded-2xl md:grid md:grid-cols-3 md:pl-10 md:w-full">
+            <div class="card w-96 pt-10 bg-white rounded-2xl grid lg:grid-cols-1 lg:px-5 md:grid md:grid-cols-3 md:pl-10 md:w-full">
                 <figure>
-                  <img class="md:w-60 h-48"
-                    src="./assets/article1.png"
-                    alt="house" />
+                  <img class="md:w-60 h-48 lg:w-11/12 " src="./assets/article1.png" alt="house" />
                 </figure>
                 <div class="card-body md:col-span-2">
-                    <div class=" w-56 flex gap-1 text-txtnav font-extrabold  items-center">
-                        <i class="fa-regular fa-calendar"></i>
-                        <p>July14, 2024</p>
-                        <i class="fa-regular fa-circle-user"></i>
-                        <p>By Admin</p>
-                    </div>
-                    <h2 class="card-title text-txtsecondary font-bold text-xl text-left">
-                        How to choose the furniture right  of your home.
-                    </h2>
-                    <p class="text-txtnav text-left font-semibold">The barn house captivates with its blend of rustic charm and modern. </p>
-                    <div class="card-actions justify-start items-center gap-4 ">
-                        <a href="#" class="text-txtprimary font-extrabold "> Read more  </a>
-                            <i class="fa-solid fa-arrow-right transform -rotate-45 rounded-[32px] p-2  bg-primary text-black "></i>
-                    </div>
+                  <div class="w-56 flex gap-1 text-txtnav font-extrabold items-center">
+                    <i class="fa-regular fa-calendar"></i>
+                    <p>July 14, 2024</p>
+                    <i class="fa-regular fa-circle-user"></i>
+                    <p>By Admin</p>
+                  </div>
+                  <h2 class="card-title text-txtsecondary font-bold text-xl text-left">
+                    How to choose the right furniture for your home.
+                  </h2>
+                  <p class="text-txtnav text-left font-semibold">
+                    The barn house captivates with its blend of rustic charm and modern.
+                  </p>
+                  <div class="card-actions justify-start items-center gap-4">
+                    <a href="#" class="text-txtprimary font-extrabold">Read more</a>
+                    <i class="fa-solid fa-arrow-right transform -rotate-45 rounded-[32px] p-2 bg-primary text-black"></i>
+                  </div>
                 </div>
-            </div>
-            <div class="card w-96 pt-10 bg-white rounded-2xl md:grid md:grid-cols-3 md:pl-10 md:w-full">
+              </div>
+              
+            <div class="card w-96 pt-10 bg-white rounded-2xl grid lg:grid-cols-1 lg:px-5 md:grid md:grid-cols-3 md:pl-10 md:w-full">
                 <figure>
-                  <img class="md:w-60 h-48"
+                  <img class="md:w-60 h-48 lg:w-11/12"
                     src="./assets/article2.png"
                     alt="house" />
                 </figure>
@@ -279,9 +280,9 @@
                     </div>
                 </div>
             </div>
-            <div class="card w-96 pt-10 bg-white rounded-2xl md:grid md:grid-cols-3 md:pl-10 md:w-full">
+            <div class="card w-96 pt-10 bg-white rounded-2xl grid lg:grid-cols-1 lg:px-5 md:grid md:grid-cols-3 md:pl-10 md:w-full">
                 <figure>
-                  <img class="md:w-60 h-48"
+                  <img class="md:w-60 h-48 lg:w-11/12"
                     src="./assets/article3.png"
                     alt="house" />
                 </figure>
@@ -308,6 +309,34 @@
 
     </div>
     <!-- Article Section End -->
+
+    <!-- connect Section Start -->
+    <div class="bg-[url('./assets/bg.jpg')] bg-cover bg-center w-full ">
+        <div class="w-11/12 mx-auto lg:w-8/12 lg:mx-auto text-center space-y-5 py-24">
+          <button class="btn bg-secondary rounded-3xl px-5 font-bold">
+            <i class="fa-solid fa-arrow-right px-2 text-black"></i>
+            Let’s Connect
+          </button>
+          <h3 class="text-txtprimary text-4xl font-extrabold">Let’s Discuss Next Project</h3>
+          <p class="w-full lg:w-8/12 lg:mx-auto text-txtsecondary text-xl font-semibold">
+            The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
+          </p>
+          
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-5 p-5 rounded-2xl">
+            <input class="w-full p-5 rounded-3xl bg-white text-txtsecondary font-semibold" type="text" placeholder="First Name*">
+            <input class="w-full p-5 rounded-3xl bg-white text-txtsecondary font-semibold" type="text" placeholder="Last Name*">
+            <input class="w-full p-5 rounded-3xl bg-white text-txtsecondary font-semibold" type="text" placeholder="Phone Number*">
+            <input class="w-full p-5 rounded-3xl bg-white text-txtsecondary font-semibold" type="text" placeholder="Your Email*">
+            <textarea class="w-full h-32 p-5 rounded-3xl bg-white text-txtsecondary font-semibold md:col-span-2 mb-5" placeholder="Write your message here"></textarea>
+            <a class="w-full btn bg-primary rounded-3xl px-5 font-bold md:col-span-2 flex items-center justify-center">
+              Send Mail 
+              <i class="fa-solid fa-arrow-right transform -rotate-45 rounded-[32px] p-2 bg-black text-white"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      
+    <!-- connect Section End -->
 </main>
     
 </body>
